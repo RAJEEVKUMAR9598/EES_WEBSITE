@@ -1,0 +1,156 @@
+*{margin: 0; padding: 0; box-sizing: border-box;
+    
+    font-family: 'Poppins', sans-serif;}
+
+a{
+    text-decoration: none;
+}
+a:hover{text-decoration: none;}
+li{list-style: none;}
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.extra-div h2{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: black;
+}
+.extra-div h3{
+    text-align: center;
+    padding-bottom: 7px;
+    font-size: 1rem;
+    color: blue;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    
+   
+}
+.header:before {
+    content: " ";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+}
+.navbar:before {
+    content: " ";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+}
+.nav-item a{
+    color: black;
+}
+.nav-item a:hover{
+    color: red;
+}
+.dropdown-item {
+    color: black;
+}
+
+.header-section {
+    width: 100%;
+    height: inherit;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.header-button a{
+    color: black;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+.header-button a:hover{
+    background-color: #fff;
+}
+/*********************extra header div css start***********/
+.header-extradiv{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+}
+.extra-div{
+    background:#fff;
+    border: medium none;
+    padding: 50px!important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+.extra-div a{
+    color: black;
+    border: 0.1px solid black;
+    border-radius: 120px;
+    margin: 1px 3px;
+    padding: 8px 15px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+}
+.extra-div a:hover{
+    color: white;
+    background-color: black;
+}
+
+
+/*********************extra header div css end***********/
+.carusal-sec{
+    margin: 100px;
+}
+.carusal-sec h3{
+    text-align: center;
+    padding: 20px 20px;
+}
+.carousel-inner h5,p{
+    color: #fff;
+    background-color: #000000dd;
+    border-radius: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.card-header,.card-footer{
+    background-color: black;
+    color: #fff;
+}
+.card-body{
+    color: #fff;
+    background-color: #000000dd;
+}
+.card-body a:hover{
+    transform: scale(1.5);
+}
