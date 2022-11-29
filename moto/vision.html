@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vision.css">
+</head>
+
+<body>
+    <h1>VISION</h1>
+    <hr>
+    <div class="container">
+        <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+    </div>
+    <script>const typedTextSpan = document.querySelector(".typed-text");
+        const cursorSpan = document.querySelector(".cursor");
+
+        const textArray = ["!! To outshine in edification, research and industrial services in electrical engineering in tune with societal aspirations. !!"];
+        const typingDelay = 50;
+        let t = 0;
+        let i = 0;
+
+        function type() {
+            if (i < textArray[t].length) {
+                if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                typedTextSpan.textContent += textArray[t].charAt(i);
+                i++;
+                setTimeout(type, typingDelay);
+            }
+        }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        if (textArray.length) setTimeout(type, typingDelay + 250);
+    });
+    </script>
+</body>
+
+</html>
