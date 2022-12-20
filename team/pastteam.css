@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    background-image: url("../team/images/mainbg.jpg");
+    width: 100%;
+    height: auto;
+    padding: 60px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.mid2{ 
+    padding: 20px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mid2 h1 {
+    text-align: center;
+    margin-bottom: 28px;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#card {
+    margin: 35px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    transition: all 0.25s ease;
+}
+
+.card1 {
+    background: url("../team/img/nitin.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card2 {
+    background: url("../team/img/amanraj.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card3 {
+    background: url("../team/img/amardeep.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card4 {
+    background: url("../team/images/divyansh.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card5 {
+    background: url("../team/img/shubham.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card6 {
+    background: url("../team/img/tushar.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card7 {
+    background: url("../team/img/amansingh.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card8 {
+    background: url("../team/img/dhruv.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card9 {
+    background: url("../team/img/sheuli.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card10 {
+    background: url("../team/img/devang.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card11 {
+    background: url("../team/img/aditya.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card12 {
+    background: url("../team/img/arush.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card13 {
+    background: url("../team/img/swetasingh.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card14 {
+    background: url("../team/img/UTA.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card15 {
+    background: url("../team/img/ut.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card16 {
+    background: url("../team/img/anushka.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card17 {
+    background: url("../team/img/anupama.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card18 {
+    background: url("../team/img/rinki.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card19 {
+    background: url("../team/img/aks2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 100%;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+}
+#card:hover{
+    border-radius: 12px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 27px;
+}
+
+h2 {
+    font-size: 16px;
+}
+a {
+
+    padding: 12px;
+    text-decoration: none;
+    color: yellowgreen;
+    
+    border-radius: 20px;
+}
+a h1{
+    margin-top: 14px;
+}
